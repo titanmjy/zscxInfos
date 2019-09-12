@@ -1,0 +1,13 @@
+post info
+http://zscx.osta.org.cn/jiandingApp/command/buzhongxin/ecCertSearchAll
+tableName=CERT_T&tableName1=000000&CertificateID=&CID=32098119870507448X&Name=%E5%91%A8%E5%B9%B3&x=212&y=18&province=-1
+
+get verifycode
+http://zscx.osta.org.cn/jiandingApp/verifycode
+
+post info with verifyCode
+http://zscx.osta.org.cn/jiandingApp/command/buzhongxin/ecCertSearchAllq
+
+req=146987&reqIP=221.231.115.14&
+tableName=CERT_T&tableName1=000000&CertificateID=&CID=32098119870507448X&Name=%E5%91%A8%E5%B9%B3&imageField.x=26&imageField.y=4&province=-1&
+templetId=&async=false&PortID=&verifyCode=1910
